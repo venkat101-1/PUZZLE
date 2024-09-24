@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape Room</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            height:150px;
+            width:100%;
+            background-color: chartreuse;
+            display:flex;
+            align-items: center;
+            justify-content: flex-start;
+            column-gap: 60px;
+            border: 2px solid black;
+            
+        }
+        nav h1{
+            font-size: 50px;
+            color: deepskyblue;
+            font-family: algerian;
+
+        }
+        button{
+            text-decoration: none;
+            color: green;
+            font-size: 35px;
+            padding: 5px;
+            border: 5px solid black;
+            border-radius: 20px;
+            background-color: deepskyblue;
+            cursor: pointer;
+        }
+        a :hover{
+            color:black;
+            background-color: yellow;
+        }
+        section {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 15px;
+            background-image: url(https://techcrunch.com/wp-content/uploads/2014/12/matrix.jpg?w=730&crop=1);
+            height: 200px;
+            background-attachment: fixed;
+            border: 5px solid black;
+        }
+        section h1{
+            font-size: 40px;
+            font-family: algerian;
+            color: green;
+            border: 2px solid black;
+            background-color: white;
+        }
+        
+        main{
+            margin-top: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        main div{
+            display:flex;
+            justify-content: space-evenly;
+            width: 1500px;
+            margin-top: 70px;
+            margin-bottom: 100px;
+        }
+        main button{
+            background-color:gainsboro;
+            color: dimgrey;
+        }
+     
+       
+    </style>
+</head>
+<body>
+    <nav>
+          <h1 style="margin-left: 40px;">ESCAPE FROM TECH</h1>
+        <a href="./index.html"><button ><i class="fa-solid fa-house"></i>HOME</button></a>
+        <a href="./information.html"><button><i class="fa-solid fa-circle-info"></i>INFORMATION</button></a>
+        <a href="./search.html"><button><i class="fa-solid fa-magnifying-glass"></i>SEARCH</button></a>
+
+    </nav>
+    <section>
+        <h1 style="padding: 5px 40px;">Escape From Technology</h1>
+    </section>
+    <main>
+        <table>
+            <tr>
+                <td style="font-size: 25px; width: 700px;padding: 25px;">
+                    "Thank you for rescueing me from my prison, now let's get out of here." The door opened and Trent walked out.<br>
+                    "Why were you in a prison cell?" Ryan asked.<br>
+                    "I don't know, I was just always in a prison cell I guess."<br>
+                    Trent started walking up to a pillar, he lead the way to a deeper part into the cave system. Ryan followed him.
+                    "Where are we going?" Ryan asked.<br>
+                    "Wherever this leads us." Trent answered.<br>
+                    A while later, they ended up at a dead end, but there was a small stone pillar and Trent had noticed it.
+                    "What's that?" Ryan said, he pointed up to the wall next to the pillar. It had writing on it.
+                </td>
+                <td>
+                    <img src="https://broy-vec.github.io/webpj-1/Cave.png" alt="" width="600px" height="450px">
+                </td>
+            </tr>
+        </table>
+        <h1 style="font-size:50px;">Help Ryan crack the riddle!</h1>
+        <img src="https://broy-vec.github.io/webpj-1/Riddle.png" alt="" width="1450px" height="800px">
+        <h1 style="font-size: 40px;">What's the answer to the riddle?</h1>
+        <br><br>
+        <div>
+            <a href="./step2_fail.html"><button>Tree</button></a>
+            <a href="./step2_fail.html"><button>Human</button></a>
+            <a href="./step3.html"><button>Candle</button></a>
+            <a href="./step2_fail.html"><button>Mushroom</button></a>
+        </div>
+    </main>
+   
+    
+</body>
+</html>

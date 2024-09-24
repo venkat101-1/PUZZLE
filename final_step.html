@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape Room</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            height:150px;
+            width:100%;
+            background-color: chartreuse;
+            display:flex;
+            align-items: center;
+            justify-content: flex-start;
+            column-gap: 60px;
+            border: 2px solid black;
+            
+        }
+        nav h1{
+            font-size: 50px;
+            color: deepskyblue;
+            font-family: algerian;
+
+        }
+        button{
+            text-decoration: none;
+            color: green;
+            font-size: 35px;
+            padding: 5px;
+            border: 5px solid black;
+            border-radius: 20px;
+            background-color: deepskyblue;
+        }
+        a :hover{
+            color:black;
+            background-color: yellow;
+        }
+        section {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 15px;
+            background-image: url(https://techcrunch.com/wp-content/uploads/2014/12/matrix.jpg?w=730&crop=1);
+            height: 200px;
+            background-attachment: fixed;
+            border: 5px solid black;
+        }
+        section h1{
+            font-size: 40px;
+            font-family: algerian;
+            color: green;
+            border: 2px solid black;
+            background-color: white;
+        }
+        
+        main{
+            margin-top: 15px;
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+            flex-direction: column;
+        }
+     
+       
+    </style>
+</head>
+<body>
+    <nav>
+          <h1 style="margin-left: 40px;">ESCAPE FROM TECH</h1>
+        <a href="./index.html"><button ><i class="fa-solid fa-house"></i>HOME</button></a>
+        <a href="./information.html"><button><i class="fa-solid fa-circle-info"></i>INFORMATION</button></a>
+        <a href="./search.html"><button><i class="fa-solid fa-magnifying-glass"></i>SEARCH</button></a>
+
+    </nav>
+    <section>
+        <h1 style="padding: 5px 40px;">Escape From Technology</h1>
+    </section>
+    <main>
+        <table>
+            <tr>
+                <td style="font-size: 24px; width: 600px; padding-left: 30px;">
+                    "Congratulations. You proved yourself." Trent said. Ryan started to see himself fade away, just like he did to get in the world.
+                     "Thanks for the adventure Trent." Ryan said, before he dissapeared. "No worries" Trent said, but there was no Ryan to hear it.
+                      Ryan was back in front of the mirror. He looked at the time, it was exactly from when he left. "I'm never pressing an ad again." 
+                      Ryan said, and then he went back to doing his things.
+                </td>
+                <td>
+                    <img src="data:image/png;base64,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" alt="" width="500px">
+                </td>
+            </tr>                       
+        </table>
+        <h1 style="font-size: 40px;">CONGRATS, YOU COMPLETED THE ESCAPE ROOM!</h1>
+        <br>
+
+    </main>
+   
+    
+</body>
+</html>
